@@ -9,8 +9,9 @@
 > **Sekme 2 — tek liste:** sürüm karşılaştırması ve "sorunlu örnek" turu kaldırıldı.
 > **Sekme 3 — rahat düzen:** geçmiş üstte yatay şeride taşındı, karşılaştırılan iki liste
 > iki katı genişliğe kavuştu.
-> **Üç sistemde de** listesi neredeyse tamamen aynı ürünün tonlarından oluşan ürünler arama
-> havuzundan düşürüldü (S#1: **730** · S#2: **71**). Katalog ve artefaktlar değişmedi.
+> **Arama havuzları temizlendi:** Sekme 1'de yalnız üç metinden de değerlendirmesi yapılabilen
+> **4.630 ürün** aranabilir; Sekme 2'de yığılma kalan **71** çapa düşürüldü. Katalog ve
+> artefaktlar değişmedi — bu yalnız demo vitrininin havuzu.
 >
 > v4'ten devam eden kurallar (Sekme 3): geçmişte alınan **hiçbir kategoriden** öneri çıkmaz
 > (süre hesabı yok) · aynı ürün hattının başka boy/tonu önerilmez · cinsiyet profiline aykırı
@@ -41,9 +42,11 @@ altta bugün yayında olan liste.
 | **Görsel başlığı** (caption) | ürün fotoğrafından üretilmiş metin | 0,01374 | 0,968 |
 | eski metin-tabanı | — | 0,0108 | — |
 
-**Kapsama:** üç modalite de aynı **4.804 üründe** (katalogun %35'i) dolu; kalan 8.918 üründe
-metin benzerliği yedeği çalışır ve modalite ayrımı gösterilmez (ekranda açıkça yazar).
+**Arama havuzu:** demoda **yalnız üç metinden de değerlendirmesi yapılabilen ürünler** aranabilir
+— **4.630 ürün**. Üç modalite aynı 4.804 üründe dolu; bunlardan 174'ü yakın-kopya yığılması
+nedeniyle ayrıca düşürüldü. Üç ayrı listesi olmayan 8.918 ürün demoda gösterilmiyor.
 Fotoğraf kapsaması bu kümede **%76,8** — modalite komşularının **%87'sinde** görsel var.
+*(Katalog ve artefaktlar değişmedi; bu yalnız demo vitrininin havuzu.)*
 
 **Kaynak:** `embeddings/recomeve/cbf_knn_{identification,description,caption}.npz` (RecomEve'den
 kopyalandı, sha256 `similar.json`'ın `_prov` bloğunda) + sevk edilen `content_knn_v4.npz`.
